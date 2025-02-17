@@ -1,0 +1,75 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 10,
+				"visible_bounds_height": 5,
+				"visible_bounds_offset": [0, 1.5, 0]
+			},
+			"bones": [
+				{
+					"name": "dragon",
+					"pivot": [0, -3, 0]
+				},
+				{
+					"name": "Abody_front",
+					"parent": "dragon",
+					"pivot": [0, 35, 2]
+				},
+				{
+					"name": "Tbody_front",
+					"parent": "Abody_front",
+					"pivot": [0, 35, 2]
+				},
+				{
+					"name": "body_front",
+					"parent": "Tbody_front",
+					"pivot": [0, 35, 2]
+				},
+				{
+					"name": "Tneck",
+					"parent": "body_front",
+					"pivot": [0, 35, -18]
+				},
+				{
+					"name": "neck",
+					"parent": "Tneck",
+					"pivot": [0, 35, -18]
+				},
+				{
+					"name": "Thead",
+					"parent": "neck",
+					"pivot": [0, 35, -27]
+				},
+				{
+					"name": "Ahead",
+					"parent": "Thead",
+					"pivot": [0, 35, -27]
+				},
+				{
+					"name": "head",
+					"parent": "Ahead",
+					"pivot": [0, 35, -27],
+					"cubes": [
+						{
+							"origin": [-8, 21.5, -44],
+							"size": [16, 16, 16],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [16, 16]},
+								"east": {"uv": [0, 0], "uv_size": [16, 16]},
+								"south": {"uv": [0, 0], "uv_size": [16, 16]},
+								"west": {"uv": [0, 0], "uv_size": [16, 16]},
+								"up": {"uv": [0, 0], "uv_size": [16, 16]},
+								"down": {"uv": [0, 16], "uv_size": [16, -16]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

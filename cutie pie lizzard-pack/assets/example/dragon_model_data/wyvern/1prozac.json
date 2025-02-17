@@ -1,0 +1,18 @@
+{
+  "model_data" : {
+    "texture": "example:textures/wyvern/1prozac.png",
+    "model": "example:geo/wyvern/prozac.geo.json",
+    "animation": "example:animations/prozac.animation.json"
+  },
+  "nametag_accessible": true,
+  "equipment_model_overrides": [
+    {
+      "item": "minecraft:saddle",
+      "model_data": {
+        "texture": "example:textures/wyvern/saddle_prozac.png",
+        "model": "example:geo/wyvern/prozac_saddle.geo.json",
+        "cull" : false
+      }
+    }
+  ]
+}

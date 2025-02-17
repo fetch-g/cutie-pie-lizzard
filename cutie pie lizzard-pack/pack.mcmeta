@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "cool description",
+    "pack_format": 21,
+    "supported_formats": [21, 46]
+  }
+}
