@@ -1,0 +1,8 @@
+{
+  "model_data" : {
+    "texture": "example:textures/lightning_chaser/prozac.png",
+    "model": "example:geo/lightning_chaser/prozac.geo.json",
+    "animation": "uselessreptile:animations/entity/lightning_chaser/lightning_chaser.animation.json"
+  },
+  "nametag_accessible": true
+}
